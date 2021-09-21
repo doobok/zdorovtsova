@@ -10,6 +10,10 @@
         "production": "mix --production"
     },
     "devDependencies": {
+        "@tailwindcss/aspect-ratio": "^0.2.0",
+        "@tailwindcss/forms": "^0.3.2",
+        "@tailwindcss/typography": "^0.4.0",
+        "alpinejs": "^3.4.0",
         "autoprefixer": "^10.3.4",
         "axios": "^0.21",
         "inputmask": "^5.0.6",

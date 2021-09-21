@@ -13,6 +13,17 @@
 
 @section('main')
 
+@include('layouts.partials.nav')
+
+@include('layouts.partials.mainpage.firstscreen')
+@include('layouts.partials.mainpage.numbers')
+@include('layouts.partials.mainpage.steps')
+
+
+@include('layouts.partials.mainpage.others')
+
+
+
   {{-- @include('layouts.partials.mainpage.firstscreen')
 
   @include('layouts.partials.mainpage.introduce')

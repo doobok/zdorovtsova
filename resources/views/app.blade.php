@@ -13,6 +13,8 @@
     @yield('main')
     </main>
 
+    @include('layouts.partials.footer')
+
   </div>
   @include('layouts.partials.js')
 

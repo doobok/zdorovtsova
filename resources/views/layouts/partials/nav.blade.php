@@ -12,7 +12,7 @@
   <div class="container flex justify-between items-center">
       <div>
           <a href="/" class="text-2xl text-white font-bold">
-            Наталия Здоровцова
+            {{config('app.name')}}
               {{-- <img src="/img/logo.svg"
                    class="w-24 lg:w-48"
                    alt="logo image"> --}}
@@ -23,8 +23,8 @@
 
               <li class="group pl-6">
 
-                  <span @click="triggerNavItem('#about')"
-                        class="font-header font-semibold text-white uppercase pt-0.5 cursor-pointer">About</span>
+                  <span @click="triggerNavItem('#numbers')"
+                        class="font-header font-semibold text-white uppercase pt-0.5 cursor-pointer">Числа</span>
 
                   <span
                         class="block w-full h-0.5 bg-transparent group-hover:bg-yellow"></span>
@@ -32,8 +32,8 @@
 
               <li class="group pl-6">
 
-                  <span @click="triggerNavItem('#services')"
-                        class="font-header font-semibold text-white uppercase pt-0.5 cursor-pointer">Services</span>
+                  <span @click="triggerNavItem('#steps')"
+                        class="font-header font-semibold text-white uppercase pt-0.5 cursor-pointer">Шаги</span>
 
                   <span
                         class="block w-full h-0.5 bg-transparent group-hover:bg-yellow"></span>
@@ -41,8 +41,8 @@
 
               <li class="group pl-6">
 
-                  <span @click="triggerNavItem('#portfolio')"
-                        class="font-header font-semibold text-white uppercase pt-0.5 cursor-pointer">Portfolio</span>
+                  <span @click="triggerNavItem('#categories')"
+                        class="font-header font-semibold text-white uppercase pt-0.5 cursor-pointer">Категории</span>
 
                   <span
                         class="block w-full h-0.5 bg-transparent group-hover:bg-yellow"></span>
@@ -50,8 +50,8 @@
 
               <li class="group pl-6">
 
-                  <span @click="triggerNavItem('#clients')"
-                        class="font-header font-semibold text-white uppercase pt-0.5 cursor-pointer">Clients</span>
+                  <span @click="triggerNavItem('#trust')"
+                        class="font-header font-semibold text-white uppercase pt-0.5 cursor-pointer">Обо мне</span>
 
                   <span
                         class="block w-full h-0.5 bg-transparent group-hover:bg-yellow"></span>

@@ -12,7 +12,9 @@
               Психолог Наталия Здоровцова</h1>
           <div class="pt-3 sm:pt-5">
               <div class="pl-0 md:pl-1">
-                  <p class="text-gray-300 text-lg uppercase bg-lila p-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
+                  <p class="text-gray-300 text-lg uppercase subtitle--bg">
+                    <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</span>
+                  </p>
               </div>
               <div class="pt-7">
                 <p class="text-white text-2xl font-semibold">Lorem ipsum dolor sit amet, consectetur adipisicing:</p>
@@ -23,7 +25,7 @@
                 </ul>
               </div>
               <div class="flex justify-left">
-                <button class="bg-yellow hover:bg-primary font-header font-bold text-lg text-gray-300 hover:text-white px-16 py-6 flex justify-center mt-10 rounded items-center uppercase">
+                <button class="bg-orange hover:bg-orange-10 font-header font-bold text-lg text-white px-16 py-6 flex justify-center mt-10 rounded items-center uppercase">
                     Получить консультацию
                 </button>
               </div>

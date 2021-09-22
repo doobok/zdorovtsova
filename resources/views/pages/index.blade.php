@@ -16,25 +16,16 @@
 @include('layouts.partials.nav')
 
 @include('layouts.partials.mainpage.firstscreen')
+@include('layouts.partials.mainpage.categories')
 @include('layouts.partials.mainpage.numbers')
 @include('layouts.partials.mainpage.steps')
+@include('layouts.partials.mainpage.reviews')
 
 
-@include('layouts.partials.mainpage.others')
+{{-- @include('layouts.partials.mainpage.others') --}}
 
 
-
-  {{-- @include('layouts.partials.mainpage.firstscreen')
-
-  @include('layouts.partials.mainpage.introduce')
-  @include('layouts.partials.mainpage.subjects')
-  @include('layouts.partials.mainpage.advantages')
-  @include('layouts.partials.mainpage.tutors')
-  @include('layouts.partials.mainpage.reviews')
-  @include('layouts.partials.mainpage.universe')
-  @include('layouts.partials.mainpage.pricing')
-  @include('layouts.partials.mainpage.todo-block') --}}
-
-
+@include('layouts.partials.mainpage.trust')
+@include('layouts.partials.mainpage.endscreen')
 
 @endsection

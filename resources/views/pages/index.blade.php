@@ -18,6 +18,7 @@
 @include('layouts.partials.mainpage.firstscreen')
 @include('layouts.partials.mainpage.categories')
 @include('layouts.partials.mainpage.numbers')
+@include('layouts.partials.mainpage.services')
 @include('layouts.partials.mainpage.steps')
 @include('layouts.partials.mainpage.reviews')
 

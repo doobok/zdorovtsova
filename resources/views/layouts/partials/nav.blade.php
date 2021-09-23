@@ -59,8 +59,8 @@
 
               <li class="group pl-6">
 
-                      <span @click="triggerNavItem('#work')"
-                            class="font-header font-semibold text-white uppercase pt-0.5 cursor-pointer">Work</span>
+                      <span @click="triggerNavItem('#services')"
+                            class="font-header font-semibold text-white uppercase pt-0.5 cursor-pointer">Услуги</span>
 
                       <span
                             class="block w-full h-0.5 bg-transparent group-hover:bg-yellow"></span>

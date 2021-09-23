@@ -9,7 +9,7 @@
         <p class="my-7 text-base md:text-lg subtitle--bg">
           <span>лучший психолог Киева в 2019 году</span>
         </p>
-        <ul class="list-disc mb-7">
+        <ul class="list-disc mb-7 ml-5">
           <li>Sed ut perspiciatis unde omnis iste natus error sit voluptatem</li>
           <li>accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae explicabo.</li>
           <li>Sed ut perspiciatis unde omnis iste natus error sit voluptatem totam rem aperiam</li>
@@ -18,10 +18,8 @@
           <li>iste natus error sit voluptatem totam rem aperiam, eaque</li>
         </ul>
         <hr class="mb-7 border-green" />
-        <div class="flex justify-center">
-          <button class="bg-orange hover:bg-orange-10 font-header font-bold text-lg text-white px-16 py-6 flex justify-center rounded items-center uppercase">
-              Связаться с психологом
-          </button>
+        <div class="flex justify-center pt-10">
+          <smpl-button txt="Связаться с психологом" cls="text-lg px-16 py-5"></smpl-button>
         </div>
 
       </div>

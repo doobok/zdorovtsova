@@ -71,10 +71,8 @@
         </div>
       </div>
     </div>
-    <div class="flex justify-center">
-      <button class="bg-orange hover:bg-orange-10 font-header font-bold text-lg text-white px-16 py-6 flex justify-center mt-10 rounded items-center uppercase">
-          нужна помощь
-      </button>
+    <div class="flex justify-center pt-12">
+      <smpl-button txt="Нужна помощь" cls="text-lg px-16 py-5"></smpl-button>
     </div>
   </div>
 </div>

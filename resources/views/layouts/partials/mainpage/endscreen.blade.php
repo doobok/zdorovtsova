@@ -16,9 +16,9 @@
                 <p class="text-white text-2xl font-semibold">Lorem ipsum dolor sit amet, consectetur adipisicing</p>
               </div>
               <div class="flex justify-left">
-                <button class="bg-orange hover:bg-orange-10 font-header font-bold text-lg text-white px-16 py-6 flex justify-center rounded items-center uppercase">
-                    Связаться с психологом
-                </button>
+                <div class="flex justify-left">
+                  <smpl-button txt="Связаться с психологом" cls="text-lg px-16 py-5"></smpl-button>
+                </div>
               </div>
           </div>
       </div>

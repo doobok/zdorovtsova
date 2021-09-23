@@ -24,10 +24,8 @@
                   <li class="pt-3">Lorem ipsum dolor 3</li>
                 </ul>
               </div>
-              <div class="flex justify-left">
-                <button class="bg-orange hover:bg-orange-10 font-header font-bold text-lg text-white px-16 py-6 flex justify-center mt-10 rounded items-center uppercase">
-                    Получить консультацию
-                </button>
+              <div class="flex justify-left pt-10">
+                <smpl-button txt="Получить консультацию" cls="text-lg px-16 py-5"></smpl-button>
               </div>
           </div>
       </div>

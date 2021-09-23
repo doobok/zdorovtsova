@@ -15,6 +15,8 @@
 
     @include('layouts.partials.footer')
 
+    <lead-form></lead-form>
+
   </div>
   @include('layouts.partials.js')
 

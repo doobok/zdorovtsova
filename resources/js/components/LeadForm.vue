@@ -9,7 +9,7 @@
               <svg  width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd" fill="currentColor"><path d="M12 11.293l10.293-10.293.707.707-10.293 10.293 10.293 10.293-.707.707-10.293-10.293-10.293 10.293-.707-.707 10.293-10.293-10.293-10.293.707-.707 10.293 10.293z"/></svg>
             </button>
 
-          <template id="lead-form" v-if="sended">
+          <template id="lead-form" v-if="!sended">
 
             <div class="w-full flex text-center justify-center flex-col">
               <div class="text-2xl font-semibold text-white flex flex-row justify-center">
@@ -18,6 +18,10 @@
             <p class="text-base text-white m-3">
               Осталось оставить контактный номер телефона и я Вам перезвоню
             </p>
+          </div>
+
+          <div v-if="errorshow" class="text-lg text-center">
+              <span class="text-white p-2 rounded bg-red">{{error}}</span>
           </div>
 
           <div class="mx-auto px-4 flex flex-wrap justify-center">
@@ -35,7 +39,7 @@
                   placeholder="Номер телефона"
                   @blur="$v.phone.$touch()"
                 />
-                <span v-if="$v.phone.$error" class="text-xs text-red absolute -bottom-2 left-3">введите действительный номер телефона</span>
+                <span v-if="$v.phone.$error" class="text-xs text-white p-1 rounded opacity-90 bg-red absolute -bottom-2 left-3">введите действительный номер телефона</span>
               </div>
 
               <div class="w-full p-2 relative">
@@ -49,7 +53,12 @@
                     заполните форму
                   </template>
                   <template v-else>
-                    продолжить
+                    <span class="flex justify-center">
+                      <svg v-if="loading" class="animate-spin h-5 w-5 mr-3" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm8 12c0 4.418-3.582 8-8 8s-8-3.582-8-8 3.582-8 8-8 8 3.582 8 8zm-19 0c0-6.065 4.935-11 11-11v2c-4.962 0-9 4.038-9 9 0 2.481 1.009 4.731 2.639 6.361l-1.414 1.414.015.014c-2-1.994-3.24-4.749-3.24-7.789z"/>
+                      </svg>
+                      <span>продолжить</span>
+                    </span>
                   </template>
                 </button>
               </div>
@@ -85,8 +94,6 @@
               </button>
             </div>
 
-
-
         </div>
         </template>
       </div>
@@ -106,15 +113,18 @@ import { mapGetters } from "vuex";
 export default {
   data(){
         return{
+          sended: false,
+          sending: false, //индикатор отправки
+          loading: false,
+          errorshow: false,
+          error: '',
           phone: '',
-          send: false, //нажатие кнопки
-          sended: false, //индикатор отправки
         }
     },
     methods: {
       sendForm() {
-        if (!this.send) {
-          this.send = true;
+        if (!this.sending) {
+          this.sending = true;
           axios
             .post('/api/v1/send-lead', this.collectedLead).then(response => {
               if (response.data.success === true) {
@@ -126,19 +136,45 @@ export default {
             });
         }
       },
+      sendForm() {
+        if (!this.sending) {
+          this.sending = true;
+          // this.formshow = false;
+          this.loading = true;
+
+          this.$store.dispatch('SEND_LEAD', {
+              phone: this.phoneNum,
+              slug: this.slug,
+           }).then((res) => {
+            // проверяем наличие служебного сообщения из сервера
+            if (res.msg) {
+              this.loading = false;
+              this.errorshow = true;
+              this.error = res.msg;
+
+            // проверяем облаботал ли сервер запрос
+            } else if (res.success) {
+              this.loading = false;
+              this.sended = true;
+
+            // в противном случае показываем сообщение об ошибке
+            } else {
+              this.loading = false;
+              this.errorshow = true;
+              this.error = 'Возникла ошибка. Данные не удалось отправить. Попробуйте повторить попытку немного позже.';
+              // console.log(res);
+            }
+          })
+        }
+      },
       close(){
         this.$store.dispatch('TUGGLE_FORM', false);
       },
     },
     computed: {
       ...mapGetters(['formstatus']),
+      ...mapGetters(['slug']),
 
-      collectedLead() {
-        return {
-          phone: this.phoneNum,
-          marker: this.slug,
-        };
-      },
       phoneNum: function() {
                 var str = this.phone;
                 str = str.replace(/[^0-9.]/g, '');

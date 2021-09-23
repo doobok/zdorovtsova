@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Lead;
+use App\Models\Lead;
 use Illuminate\Support\Facades\Notification;
 use App\Notifications\TelegramNewLead;
 use Carbon\Carbon;

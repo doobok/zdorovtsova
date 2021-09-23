@@ -21,5 +21,5 @@ use Illuminate\Support\Facades\Route;
 // V1 API
 Route::group(['prefix' => 'v1'], function () {
   // Захват лидов
-  Route::post('send-lead', 'LeadsController@addLead');
+  Route::post('send-lead', 'App\Http\Controllers\LeadsController@addLead');
 });

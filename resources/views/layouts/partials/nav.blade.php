@@ -4,10 +4,10 @@
   <div class="container flex justify-between items-center">
       <div>
           <a href="/" class="text-2xl text-white font-bold">
-            {{config('app.name')}}
-              {{-- <img src="/img/logo.svg"
-                   class="w-24 lg:w-48"
-                   alt="logo image"> --}}
+            {{-- {{config('app.name')}} --}}
+            <img src="/img/logo.png"
+                 class="w-24 md:w-36 lg:w-48"
+                 alt="{{config('app.name')}}">
           </a>
       </div>
       <div class="hidden lg:block">
@@ -70,12 +70,12 @@
           </ul>
       </div>
       <div class="block lg:hidden">
-          <button
+          <button class="absolute top-0 right-0 mt-4 mr-4"
             onclick="toggleNavbar('collapse-navbar')"
           {{-- @click="$parent.mobileMenu = true" class="absolute top-0 right-0 mt-4 mr-4" --}}
           >
             <img src="/img/menu.svg"
-               class="h-8 w-auto"
+               class="h-7 w-auto"
                alt="">
          </button>
       </div>

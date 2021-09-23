@@ -34,7 +34,7 @@ export default {
     // отправка лида
     SEND_LEAD : (context, payload) => {
       console.log(payload);
-      return Axios.post('/api/v1/lead-push', tempyGen(payload))
+      return Axios.post('/api/v1/send-lead', tempyGen(payload))
       .then((response) => {
         // какоето действие из состоянием (оставил на будущее)
         // if (response.success === true) {

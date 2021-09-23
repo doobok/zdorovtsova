@@ -30,6 +30,7 @@ module.exports = {
           black: "#000000",
           yellow: "#f9e71c",
           orange: "#FE8020",
+          red: "#E52B50",
           "orange-10": "#BF7842",
           green: "#8CCB5E",
           lila: "#e6e5ec",
@@ -110,6 +111,6 @@ module.exports = {
       display: ['responsive', 'group-hover'],
     },
   },
-  plugins: [require("@tailwindcss/typography"), require(
-        "@tailwindcss/forms"), require("@tailwindcss/aspect-ratio"),],
+  plugins: [require("@tailwindcss/typography"), require("@tailwindcss/aspect-ratio"),],
+  // plugins: [require("@tailwindcss/typography"), require("@tailwindcss/forms"), require("@tailwindcss/aspect-ratio"),],
 }

@@ -16,17 +16,11 @@
 @include('layouts.partials.nav')
 
 @include('layouts.partials.mainpage.firstscreen')
-@include('layouts.partials.mainpage.categories')
-@include('layouts.partials.mainpage.numbers')
-@include('layouts.partials.mainpage.services')
-@include('layouts.partials.mainpage.steps')
-@include('layouts.partials.mainpage.reviews')
 
+@foreach ($blocks as $block)
+  @include('layouts.partials.mainpage.' . $block['name'])
+@endforeach
 
-{{-- @include('layouts.partials.mainpage.others') --}}
-
-
-@include('layouts.partials.mainpage.trust')
 @include('layouts.partials.mainpage.endscreen')
 
 @endsection

@@ -125,20 +125,6 @@ export default {
       sendForm() {
         if (!this.sending) {
           this.sending = true;
-          axios
-            .post('/api/v1/send-lead', this.collectedLead).then(response => {
-              if (response.data.success === true) {
-                this.sended = true;
-              }
-            }).catch(err => {
-              let e = { ...err    }
-              alert('Error! - ' + e.response.data.message)
-            });
-        }
-      },
-      sendForm() {
-        if (!this.sending) {
-          this.sending = true;
           // this.formshow = false;
           this.loading = true;
 
@@ -154,6 +140,10 @@ export default {
 
             // проверяем облаботал ли сервер запрос
             } else if (res.success) {
+
+              // вызываем событие GA
+              gtag('event', 'sendPhone', {'event_category': 'getPhone', 'event_label': this.slug });
+
               this.loading = false;
               this.sended = true;
 

@@ -45,6 +45,7 @@ public function saveToDB($request)
 {
     $lead = new Lead;
 
+    $lead->name = $request->name;
     $lead->phone = $request->phone;
     $lead->tempy = $request->tempy;
 
@@ -54,8 +55,9 @@ public function saveToDB($request)
       // формируем сообщение
       $phone = '+38' . $request->phone;
       $slug = $request->slug;
+      $name = $request->name;
       //telegram notification
-      Notification::send('', new TelegramNewLead($slug, $phone));
+      Notification::send('', new TelegramNewLead($slug, $phone, $name));
 
       // // отправляем в retailCRM
       // $client = new \RetailCrm\ApiClient(

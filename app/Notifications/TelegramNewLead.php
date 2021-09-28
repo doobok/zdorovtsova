@@ -18,10 +18,11 @@ class TelegramNewLead extends Notification
      *
      * @return void
      */
-     public function __construct($slug, $phone)
+     public function __construct($slug, $phone, $name)
      {
        $this->phone = $phone;
        $this->slug = $slug;
+       $this->name = $name;
 
      }
 
@@ -48,7 +49,7 @@ class TelegramNewLead extends Notification
 
          return TelegramMessage::create()
              ->to(config('var.telegramchat'))
-             ->content("🔥 *Новая заявка на сайте!* \n метка *$this->slug* \n ```$this->phone```");
+             ->content("🔥 *Новая заявка на сайте!* \n от *$this->name* \n метка *$this->slug* \n ```$this->phone```");
      }
 
     /**

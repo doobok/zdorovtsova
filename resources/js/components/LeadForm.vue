@@ -27,6 +27,17 @@
           <div class="mx-auto px-4 flex flex-wrap justify-center">
 
             <div class="w-full md:w-4/5">
+              <div class="w-full p-2 relative mb-1">
+                <span class="text-sm text-white">Ваше имя</span>
+                <input
+                  type="text" name="name"
+                  v-model="name"
+                  class="border-0 placeholder-grey-20 text-grey-10 bg-white rounded text-xl shadow focus:outline-none focus:ring w-full p-4"
+                  placeholder="Имя"
+                  @blur="$v.name.$touch()"
+                />
+                <span v-if="$v.name.$error" class="text-xs text-white p-1 rounded opacity-90 bg-red absolute -bottom-2 left-3">укажите имя</span>
+              </div>
               <!-- phone -->
               <input type="text" name="phone" hidden>
               <div class="w-full p-2 relative mb-3">
@@ -118,6 +129,7 @@ export default {
           loading: false,
           errorshow: false,
           error: '',
+          name: '',
           phone: '',
         }
     },
@@ -129,6 +141,7 @@ export default {
           this.loading = true;
 
           this.$store.dispatch('SEND_LEAD', {
+              name: this.name,
               phone: this.phoneNum,
               slug: this.slug,
            }).then((res) => {
@@ -180,6 +193,9 @@ export default {
       phone: {
         required,
         validFormat: val => /^\+38 \(0\d{2}\) \d{3}\-\d{4}$/.test(val),
+      },
+      name: {
+        required,
       },
     },
   }

@@ -23,18 +23,10 @@
         </div>
 
       </div>
-      {{-- <div>
-        <img class="object-cover w-full h-56 rounded shadow-lg sm:h-96" src="https://images.pexels.com/photos/927022/pexels-photo-927022.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=3&amp;h=750&amp;w=1260" alt="" />
-      </div> --}}
       <div class="flex items-center justify-center -mx-4 lg:pl-8">
-      <div class="flex flex-col items-end px-3">
-        <img
-          class="object-cover mb-6 rounded shadow-lg h-28 sm:h-48 xl:h-56 w-28 sm:w-48 xl:w-56"
-          src="/img/diploma.jpg"
-          alt=""
-        />
-        <img class="object-cover w-20 h-20 rounded shadow-lg sm:h-32 xl:h-40 sm:w-32 xl:w-40" src="/img/cert.jpg" alt="" />
-      </div>
+  
+        <modal-image></modal-image>
+
       <div class="px-3">
         <img class="object-cover w-40 h-40 rounded shadow-lg sm:h-64 xl:h-80 sm:w-64 xl:w-80" src="/img/about-me.jpg" alt="" />
       </div>

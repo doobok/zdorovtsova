@@ -18,6 +18,7 @@ Vue.use(VueScrollTo)
 Vue.component('smpl-button', require('./components/SimpleButton.vue').default);
 Vue.component('lead-form', require('./components/LeadForm.vue').default);
 Vue.component('counter-up', require('./components/CounterUp.vue').default);
+Vue.component('modal-image', require('./components/ModalImage.vue').default);
 
 const app = new Vue({
     el: '#app',

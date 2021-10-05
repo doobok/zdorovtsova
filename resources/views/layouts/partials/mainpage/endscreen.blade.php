@@ -4,7 +4,7 @@
   <div class="container z-30 relative pt-20 sm:pt-36 lg:pt-48 pb-12 sm:pb-24 lg:pb-36">
     <div class="flex flex-col lg:flex-row justify-center items-center">
       <div class="rounded-full border-8 border-primary shadow-xl">
-          <img src="/img/main-photo.jpg"
+          <img src="/img/end-photo.jpg"
                class="h-48 sm:h-56 rounded-full"
                alt="author">
       </div>

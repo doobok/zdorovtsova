@@ -33,7 +33,7 @@
           <div class="text-lx">
             более
             <div class="text-5xl mx-3">
-              <counter-up :max="10000"></counter-up>
+              <counter-up :max="1000"></counter-up>
             </div>
             часов
           </div>

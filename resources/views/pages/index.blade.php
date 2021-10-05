@@ -3,7 +3,7 @@
 @section('head')
 @component('components.meta')
 
-  @slot('title') Title @endslot
+  @slot('title') Психолог {{config('app.name')}} @endslot
   @slot('description') Desc @endslot
   @slot('image') /main.jpg @endslot
   @slot('date') @endslot

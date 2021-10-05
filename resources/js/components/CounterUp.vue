@@ -18,7 +18,7 @@ export default {
           if (++this.val === this.max) {
             clearInterval(interval);
           }
-        }, 3000 / this.max);
+        }, 500 / this.max );
       }
     },
     removeScrollHandler() {

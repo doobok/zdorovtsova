@@ -45,7 +45,7 @@
         </div>
         <div class="flex justify-center">
           <p class="max-w-md mb-3 text-base lg:text-lg text-grey-70 sm:mx-auto">
-            индивидуальной и групповой терапии, а также супервизионной поддержки
+            личного опыта индивидуальной и групповой терапии, а также супервизионной поддержки
           </p>
         </div>
       </div>

@@ -17,16 +17,16 @@
           <h1 class="font-header text-white text-4xl sm:text-5xl md:text-6xl text-center sm:text-left">
             Наталия Здоровцова
           </h1>
-          <p class="text-white text-base md:text-2xl font-medium my-3">Семейный психолог, сексолог, ведущая психологических групп</p>
+          <p class="text-white text-base md:text-2xl font-medium my-5">Семейный психолог, сексолог, <br> ведущая психологических групп</p>
           <div class="pt-3 sm:pt-5">
               <div class="pl-0 md:pl-1">
                   <p class="text-gray-300 text-sm md:text-lg uppercase subtitle--bg">
-                    <span>Следить за психическим здоровьем не сложно-главное найти своего психолога</span>
+                    <span>Следить за психическим здоровьем не сложно - главное найти своего психолога</span>
                   </p>
               </div>
-              <div class="pt-7">
+              <div class="pt-8">
                 <p class="text-white text-base md:text-xl font-medium">Записавшись на консультацию Вы получаете:</p>
-                <ul class="pt-3 text-white font-medium text-sm md:text-lg list-disc ml-6">
+                <ul class="pt-5 text-white font-medium text-sm md:text-lg list-disc ml-6">
                   <li class="pt-2">профессиональную психологическую помощь</li>
                   <li class="pt-2">индивидуальный подход к каждому клиенту</li>
                   <li class="pt-2">безопасное пространство</li>

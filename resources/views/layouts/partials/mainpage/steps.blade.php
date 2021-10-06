@@ -22,7 +22,23 @@
           <p class="text-lg font-bold leading-5">Заявка</p>
         </div>
         <p class="text-sm text-gray-900">
-          Bro ipsum dolor sit amet gaper backside single track, manny Bike epic clipless.
+          оставьте заявку на сайте или свяжитесь со мной по телефону
+        </p>
+      </div>
+      <div class="p-5 duration-300 transform bg-white border-2 border-dashed rounded shadow-sm border-primary hover:-translate-y-2">
+        <div class="flex items-center justify-center w-16 h-16 mx-auto mb-4 rounded-full bg-indigo-50 sm:w-20 sm:h-20">
+          <svg class="w-32 h-32 text-grey-20 sm:w-16 sm:h-16" viewBox="0 0 365.473 365.473" fill="currentColor">
+            <path d="M4.029 46.205V24.266c0-4.971 4.114-8.705 9.085-8.705h69.915V9c0-4.971 4.029-9 9-9s9 4.029 9 9v6.561h140V9c0-4.971 4.029-9 9-9s9 4.029 9 9v6.561h70.27c4.971 0 8.73 3.734 8.73 8.705v21.939c0 4.971-4.029 9-9 9s-9-4.029-9-9V33.561h-61v5.967c0 4.971-4.029 9-9 9s-9-4.029-9-9v-5.967h-140v5.967c0 4.971-4.029 9-9 9s-9-4.029-9-9v-5.967h-61v12.644c0 4.971-4.029 9-9 9s-9-4.029-9-9zm357.415 238.044c0 44.789-36.439 81.224-81.228 81.224-44.79 0-81.228-36.445-81.228-81.234 0-34.795 21.994-64.565 52.807-76.112a9.047 9.047 0 0 1-1.864-5.512c0-4.971 4.029-9.054 9-9.054h42.57c4.971 0 9 4.083 9 9.054a9.12 9.12 0 0 1-1.864 5.539 81.194 81.194 0 0 1 20.707 11.45l4.445-4.445a9 9 0 0 1 12.728 12.728l-4.136 4.135c11.892 14.132 19.063 32.355 19.063 52.227zm-18 .003c0-34.864-28.364-63.229-63.228-63.229-34.864 0-63.228 28.364-63.228 63.229 0 34.864 28.364 63.228 63.228 63.228 34.864-.001 63.228-28.364 63.228-63.228zm-51.05-22.235-3.365 3.272v-13.921c0-4.971-4.029-9-9-9s-9 4.029-9 9v35.65c0 1.225.338 2.392.781 3.456.439 1.058 1.135 2.048 1.995 2.908a9.041 9.041 0 0 0 3.01 1.98l.017.002c.004.002.014-.222.019-.22.949.382 1.984.417 3.061.417h.019c.095 0 .19.004.286.004s.19-.004.285-.004h.019c1.096 0 2.142-.043 3.104-.437 1.076-.439 2.084-.983 2.957-1.856l18.636-18.58c3.515-3.515 3.467-9.185-.047-12.7-3.517-3.515-9.262-3.486-12.777.029zm-95.86-30.456a9 9 0 0 1-9 9h-7.505v66.138c0 4.971-3.941 8.966-8.912 8.966-.303 0-.514-.05-.809-.078-.295.029-.595-.025-.897-.025H13.114c-4.971 0-9.085-3.892-9.085-8.862V80.367c0-4.971 4.114-8.806 9.085-8.806h316.185c4.971 0 8.73 3.835 8.73 8.806v97.588c0 4.971-4.029 9-9 9s-9-4.029-9-9v-13.394h-61v.769c0 4.971-4.029 9-9 9s-9-4.029-9-9v-.769h-61v58h7.505a9 9 0 0 1 9 9zm-113.505 9h-61v57h61v-57zm0-76h-61v58h61v-58zm79 76h-61v57h61v-57zm0-76h-61v58h61v-58zm18-55.333v37.333h61v-37.333c0-4.971 4.029-9 9-9s9 4.029 9 9v37.333h61v-57h-298v57h61v-37.333c0-4.971 4.029-9 9-9s9 4.029 9 9v37.333h61v-37.333c0-4.971 4.029-9 9-9s9 4.029 9 9z"/>
+          </svg>
+        </div>
+        <div class="flex items-center mb-2">
+          <p class="flex items-center justify-center w-10 h-10 mr-2 text-lg font-bold text-white rounded-full bg-orange">
+            2
+          </p>
+          <p class="text-lg font-bold leading-5">Запись</p>
+        </div>
+        <p class="text-sm text-gray-900">
+          мы согласуем удобную дату, время и формат для встречи
         </p>
       </div>
       <div class="p-5 duration-300 transform bg-white border-2 border-dashed rounded shadow-sm border-primary hover:-translate-y-2">
@@ -37,29 +53,12 @@
         </div>
         <div class="flex items-center mb-2">
           <p class="flex items-center justify-center w-10 h-10 mr-2 text-lg font-bold text-white rounded-full bg-orange">
-            2
+            3
           </p>
           <p class="text-lg font-bold leading-5">Консультация</p>
         </div>
         <p class="text-sm text-gray-900">
-          Skate ipsum dolor sit amet, alley oop vert mute-air Colby Carter flail 180 berm.
-        </p>
-      </div>
-      <div class="p-5 duration-300 transform bg-white border-2 border-dashed rounded shadow-sm border-primary hover:-translate-y-2">
-        <div class="flex items-center justify-center w-16 h-16 mx-auto mb-4 rounded-full bg-indigo-50 sm:w-20 sm:h-20">
-          <svg class="w-32 h-32 text-grey-20 sm:w-16 sm:h-16" viewBox="0 0 124.273 124.273" fill="currentColor">
-            <circle cx="32.51" cy="19.469" r="12.097"/>
-            <path d="M40.555 34.51c-.201-.124-.415-.212-.627-.303a14.013 14.013 0 0 0-4.404-1.94l-3.014 3.034-2.921-3.067c-.011.003-.021.003-.03.006-2.237.535-4.409 1.667-6.108 3.26-9.327 6.272-13.299 14.584-15.964 32.766a4.696 4.696 0 0 0 9.292 1.363c.961-6.543 2.07-11.322 3.352-14.934v14.788a9.5 9.5 0 0 0 .675 3.526c-.033.244-.057.49-.057.744l.004 44.969a5.551 5.551 0 0 0 11.101 0l-.002-38.594c.22.01.438.028.66.028.043 0 .086-.006.13-.006l-.002 38.571a5.552 5.552 0 0 0 11.101 0l.002-44.695a9.48 9.48 0 0 0 1.15-4.544V53.308c1.503 3.75 2.783 8.905 3.872 16.321a4.696 4.696 0 1 0 9.293-1.363c-2.812-19.153-7.065-27.355-17.503-33.756zm-8.074 24.732-2.917-3.992 2.261-15.105a4.68 4.68 0 0 0 .284-1.904l.372-2.491h.058l2.918 19.501-2.918 3.992-.058-.001zM112.568 0H57.679a4.27 4.27 0 0 0-4.271 4.269v30.828a4.27 4.27 0 0 0 4.271 4.27h1.361l-3.363 8.111 9.57-8.111h47.32a4.271 4.271 0 0 0 4.27-4.27V4.269A4.27 4.27 0 0 0 112.568 0zM60.804 30.584l-1.796-2.816 3.204-2.042 1.794 2.817-3.202 2.041zm6.39-4.073-1.796-2.818 3.836-2.446 1.798 2.819-3.838 2.445zm41.084-4.47-3.26-.736 1.383-6.123-16.746 13.911-6.659-12.657-9.623 6.137-1.798-2.817 12.688-8.09 6.431 12.222 13.396-11.129-5.213.738-.47-3.309 12.96-1.837-3.089 13.69z"/>
-          </svg>
-        </div>
-        <div class="flex items-center mb-2">
-          <p class="flex items-center justify-center w-10 h-10 mr-2 text-lg font-bold text-white rounded-full bg-orange">
-            3
-          </p>
-          <p class="text-lg font-bold leading-5">Работа над проблемой</p>
-        </div>
-        <p class="text-sm text-gray-900">
-          Skate ipsum dolor sit amet, alley oop vert mute-air Colby Carter flail 180 berm.
+          на первой консультации происходит знакомство, изучение Вашей ситуации и определение направления работы
         </p>
       </div>
       <div class="relative p-5 duration-300 transform bg-white border-4 rounded shadow-sm border-green hover:-translate-y-2">
@@ -72,10 +71,10 @@
           <p class="flex items-center justify-center w-10 h-10 mr-2 text-lg font-bold text-white rounded-full bg-green">
             4
           </p>
-          <p class="text-lg font-bold leading-5">Проблема решена</p>
+          <p class="text-lg font-bold leading-5">Реализация</p>
         </div>
         <p class="text-sm text-gray-900">
-          A flower in my garden, a mystery in my panties. Heart attack never stopped.
+          в процессе консультаций поймете, как устроена проблема и увидите конструктивные пути ее решения
         </p>
         <p class="absolute top-0 right-0 flex items-center justify-center w-8 h-8 -mt-4 -mr-4 font-bold rounded-full bg-green sm:-mt-5 sm:-mr-5 sm:w-10 sm:h-10">
           <svg class="text-white w-7" stroke="currentColor" viewBox="0 0 24 24">

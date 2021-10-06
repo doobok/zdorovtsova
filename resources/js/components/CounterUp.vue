@@ -15,10 +15,11 @@ export default {
       if (this.$el.offsetTop + this.$el.offsetHeight < window.scrollY + window.innerHeight) {
         this.removeScrollHandler();
         const interval = setInterval(() => {
-          if (++this.val === this.max) {
+          this.val=this.val+5;
+          if (this.val === this.max) {
             clearInterval(interval);
           }
-        }, 500 / this.max );
+        }, 5 );
       }
     },
     removeScrollHandler() {

@@ -72,7 +72,7 @@
       </div>
     </div>
     <div class="flex justify-center pt-12">
-      <smpl-button txt="Нужна помощь" cls="text-lg px-16 py-5"></smpl-button>
+      <smpl-button txt="Нужна помощь" cls="text-sm px-7 py-3 sm:px-10 sm:py-4 md:text-lg md:px-16 md:py-5"></smpl-button>
     </div>
   </div>
 </div>

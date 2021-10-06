@@ -9,7 +9,7 @@
                    alt="{{config('app.name')}}">
             </a>
         </div>
-        <div class="hidden lg:block">
+        <div class="hidden xl:block">
             <ul class="flex items-center">
 
               @if ($blocks)
@@ -39,7 +39,7 @@
 
             </ul>
         </div>
-        <div class="block lg:hidden">
+        <div class="block xl:hidden">
             <button class="absolute top-0 right-0 mt-4 mr-4"
               onclick="toggleNavbar('collapse-navbar')"
             >
@@ -51,7 +51,7 @@
     </div>
   </div>
 
-  <div id="collapse-navbar" class="fixed hidden inset-0 bg-black bg-opacity-100 z-50 min-h-screen lg:hidden transition-opacity opacity-100 pointer-events-auto">
+  <div id="collapse-navbar" class="fixed hidden inset-0 bg-black bg-opacity-80 z-50 min-h-screen xl:hidden transition-opacity opacity-100 pointer-events-auto">
     <div class="w-2/3 md:w-1/3 bg-primary min-h-screen absolute right-0 shadow py-4 px-8">
         <button class="absolute top-0 right-0 mt-4 mr-4"
                 onclick="toggleNavbar('collapse-navbar')"

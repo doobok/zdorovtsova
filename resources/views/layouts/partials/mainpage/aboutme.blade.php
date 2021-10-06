@@ -17,20 +17,20 @@
           <li>Sed ut perspiciatis unde omnis iste natus error sit voluptatem</li>
           <li>iste natus error sit voluptatem totam rem aperiam, eaque</li>
         </ul>
-        <hr class="mb-7 border-green" />
-        <div class="flex justify-center pt-10">
-          <smpl-button txt="Связаться с психологом" cls="text-lg px-16 py-5"></smpl-button>
-        </div>
+        <hr class="mb-3 border-green" />
 
       </div>
       <div class="flex items-center justify-center -mx-4 lg:pl-8">
-  
+
         <modal-image></modal-image>
 
       <div class="px-3">
         <img class="object-cover w-40 h-40 rounded shadow-lg sm:h-64 xl:h-80 sm:w-64 xl:w-80" src="/img/about-me.jpg" alt="" />
       </div>
     </div>
+    </div>
+    <div class="flex justify-center pt-10">
+      <smpl-button txt="Связаться с психологом" cls="text-sm px-7 py-3 sm:px-10 sm:py-4 md:text-lg md:px-16 md:py-5"></smpl-button>
     </div>
   </div>
 </div>

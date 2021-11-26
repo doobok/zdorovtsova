@@ -20,6 +20,8 @@ mix.js('resources/js/app.js', 'public/js')
     require('autoprefixer'),
 ]);
 
+mix.browserSync('zd.cam');
+
 if (mix.inProduction()) {
     mix.version();
 }

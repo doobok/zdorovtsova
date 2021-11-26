@@ -28,5 +28,9 @@
         "vue-template-compiler": "^2.6.14",
         "vuelidate": "^0.7.6",
         "vuex": "^3.6.2"
+    },
+    "dependencies": {
+        "browser-sync": "^2.27.7",
+        "browser-sync-webpack-plugin": "^2.3.0"
     }
 }

@@ -5,7 +5,9 @@
     <div class="flex flex-col lg:flex-row justify-center items-center">
       <div class="rounded-full border-8 border-primary shadow-xl">
           <img src="/img/end-photo.jpg"
-               class="h-48 sm:h-56 rounded-full"
+               class="rounded-full"
+               width="300"
+               height="300"
                alt="author">
       </div>
       <div class="lg:pl-24 pt-8 sm:pt-10 lg:pt-0">

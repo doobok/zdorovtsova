@@ -11,7 +11,7 @@
         <div class="grid gap-10 mx-auto grid-cols-1 md:grid-cols-2 xl:grid-cols-4 place-content-start lg:max-w-screen-lg">
             @php
                 $directions = [
-                    ['n'=>1, 'l1'=>3, 'l2'=>4],
+                    ['n'=>1, 'l1'=>3, 'l2'=>3],
                     ['n'=>2, 'l1'=>4, 'l2'=>2],
                     ['n'=>3, 'l1'=>3, 'l2'=>3],
                     ['n'=>4, 'l1'=>3, 'l2'=>3]

@@ -3,20 +3,25 @@
         <div class="grid gap-10 lg:grid-cols-2">
             <div class="lg:pr-10">
                 <h2 class="text-4xl font-extrabold leading-none">
-                    {{-- {{config('app.name')}} --}}
-                    Обо мне
+                    Наталия Здоровцова
                 </h2>
                 <p class="my-7 text-base md:text-lg subtitle--bg">
-                    <span>лучший психолог Киева в 2019 году</span>
+                    <span>семейный психолог, сексолог <br> ведущая психологических групп</span>
                 </p>
-                <ul class="list-disc mb-7 ml-5">
-                    <li>Sed ut perspiciatis unde omnis iste natus error sit voluptatem</li>
-                    <li>accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae explicabo.</li>
-                    <li>Sed ut perspiciatis unde omnis iste natus error sit voluptatem totam rem aperiam</li>
-                    <li>iste natus error sit voluptatem totam rem aperiam, eaque</li>
-                    <li>Sed ut perspiciatis unde omnis iste natus error sit voluptatem</li>
-                    <li>iste natus error sit voluptatem totam rem aperiam, eaque</li>
-                </ul>
+                <div class="text-sm">
+                    <p>Дипломированный психолог, опыт психологической практики более 10 лет.</p>
+                    <p>Помогаю клиентам в решении ситуативных и давних проблем. Специализируюсь в темах межличностного
+                        общения и личностных кризисов. Работаю с семейными парами и индивидуально.</p>
+                    <p>В работе использую методы психодинамической (психоаналитически ориентированной) психотерапии.
+                        Я помогаю клиентам справиться с трудными эмоциональными переживаниями, лучше понимать себя и
+                        окружающих,
+                        достичь желаемых результатов.</p>
+                    <p>Мне нравиться взаимодействовать с людьми и наблюдать за их удивительными изменениями, сильными
+                        сторонами и талантами, которые они находят в себе, и тем, насколько счастливее и спокойнее
+                        становиться их жизнь.</p>
+                </div>
+
+
                 <hr class="mb-3 border-green"/>
             </div>
             <div class="flex items-center justify-center -mx-4 lg:pl-8">

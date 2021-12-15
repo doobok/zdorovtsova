@@ -12,14 +12,17 @@
       </div>
       <div class="lg:pl-24 pt-8 sm:pt-10 lg:pt-0">
           <h2 class="font-header text-white text-3xl sm:text-5xl md:text-6xl text-center sm:text-left">
-              Психолог Наталия Здоровцова</h2>
+              {{__('lnd.end-h2')}}
+          </h2>
           <div>
               <div class="py-10">
-                <p class="text-white text-2xl font-semibold">Lorem ipsum dolor sit amet, consectetur adipisicing</p>
+                <p class="text-white text-2xl font-semibold">
+                    {{__('lnd.end-txt')}}
+                </p>
               </div>
               <div class="flex justify-left">
                 <div class="flex justify-left">
-                  <smpl-button txt="Связаться с психологом" cls="text-lg px-16 py-5"></smpl-button>
+                  <smpl-button txt="{{__('lnd.end-btn')}}" cls="text-lg px-16 py-5"></smpl-button>
                 </div>
               </div>
           </div>

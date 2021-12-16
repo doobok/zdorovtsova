@@ -73,6 +73,26 @@ return [
 
     'serv-btn' => 'записаться на консультацию',
 
+//    отзывы
+    'reviews-h2' => 'Отзывы',
+    'reviews-mark' => 'маленькие истории из жизни клиентов',
+    'reviews' => [
+                [
+                    'txt' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus ad aliquid dolores enim error
+                              eum facilis iste neque, numquam optio pariatur perspiciatis provident quae qui quod recusandae tenetur voluptatibus? Fugit.',
+                    'name' => 'Анжелика',
+                ],
+                [
+                    'txt' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus ad aliquid dolores enim error
+                                      eum facilis iste neque, numquam optio pariatur perspiciatis provident quae qui quod recusandae tenetur voluptatibus? Fugit.',
+                    'name' => 'Тимофей',
+                ],
+                [
+                    'txt' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus ad aliquid dolores enim error
+                                      eum facilis iste neque, numquam optio pariatur perspiciatis provident quae qui quod recusandae tenetur voluptatibus? Fugit.',
+                    'name' => 'Оксана',
+                ],
+            ],
 //    закрывающий блок
     'end-h2' => 'Психолог Наталия Здоровцова',
     'end-txt' => 'Запланируйте сеанс и начните свои изменения уже сегодня!',

@@ -4,7 +4,7 @@
 
     <div class="container z-30 relative pt-20 sm:pt-36 lg:pt-48 pb-12 sm:pb-24 lg:pb-36">
         <div class="flex flex-col lg:flex-row justify-center items-center">
-            <div class="rounded-full border-8 border-primary shadow-xl block lg:hidden">
+            <div class="rounded-full border-4 border-white shadow-xl block lg:hidden">
                 <img src="/img/main-photo.jpg"
                      class="h-48 sm:h-64 rounded-full"
                      alt="Наталия Здоровцова">
@@ -16,7 +16,7 @@
                 <h1 class="font-header text-white text-4xl sm:text-5xl md:text-6xl text-center sm:text-left">
                     {{__('lnd.h1')}}
                 </h1>
-                <p class="text-white text-base md:text-2xl font-medium my-5">
+                <p class="text-white text-right text-base md:text-2xl font-medium my-5">
                     {!! __('lnd.main-subtitle') !!}
                 </p>
                 <div class="pt-3 sm:pt-5">

@@ -14,7 +14,7 @@ class PagesController extends Controller
       $blocks->push(['name' => 'numbers', 'menu' => false]);
       $blocks->push(['name' => 'services', 'menu' => true]);
       $blocks->push(['name' => 'steps', 'menu' => true]);
-      $blocks->push(['name' => 'reviews', 'menu' => true]);
+      $blocks->push(['name' => 'reviews', 'menu' => false]);
       $blocks->push(['name' => 'aboutme', 'menu' => true]);
 
       return view('pages.index', [

@@ -3,16 +3,16 @@
 
   <div class="container z-30 relative pt-20 sm:pt-36 lg:pt-48 pb-12 sm:pb-24 lg:pb-36">
     <div class="flex flex-col lg:flex-row justify-center items-center">
-      <div class="rounded-full border-8 border-primary shadow-xl">
+      <div class="rounded-full border-4 lg:border-0 border-white shadow-xl">
           <img src="/img/end-photo.jpg"
-               class="rounded-full"
+               class="rounded-full lg:rounded-none"
                width="300"
                height="300"
                alt="author">
       </div>
       <div class="lg:pl-24 pt-8 sm:pt-10 lg:pt-0">
-          <h2 class="font-header text-white text-3xl sm:text-5xl md:text-6xl text-center sm:text-left">
-              {{__('lnd.end-h2')}}
+          <h2 class="font-header text-white text-3xl sm:text-5xl md:text-6xl text-right">
+              {!! __('lnd.end-h2') !!}
           </h2>
           <div>
               <div class="py-10">

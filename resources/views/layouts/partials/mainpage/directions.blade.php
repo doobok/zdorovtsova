@@ -4,9 +4,9 @@
             <h2 class="max-w-lg mb-6 font-sans text-3xl font-bold leading-none tracking-tight text-gray-900 sm:text-4xl md:mx-auto">
                 {{__('lnd.dir-h2')}}
             </h2>
-            <p class="text-base md:text-lg subtitle--bg">
-                <span>{{__('lnd.dir-mark')}}</span>
-            </p>
+{{--            <p class="text-base md:text-lg subtitle--bg">--}}
+{{--                <span>{{__('lnd.dir-mark')}}</span>--}}
+{{--            </p>--}}
         </div>
         <div class="grid gap-10 mx-auto grid-cols-1 md:grid-cols-2 xl:grid-cols-4 place-content-start lg:max-w-screen-lg">
             @php

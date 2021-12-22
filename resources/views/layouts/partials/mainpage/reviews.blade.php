@@ -5,9 +5,9 @@
             <h2 class="max-w-lg mb-6 font-sans text-3xl font-bold leading-none tracking-tight text-gray-900 sm:text-4xl md:mx-auto">
                 {{__('lnd.reviews-h2')}}
             </h2>
-            <p class="text-base md:text-lg subtitle--bg">
-                <span>{{__('lnd.reviews-mark')}}</span>
-            </p>
+{{--            <p class="text-base md:text-lg subtitle--bg">--}}
+{{--                <span>{{__('lnd.reviews-mark')}}</span>--}}
+{{--            </p>--}}
         </div>
 
         <reviews-slider :items="{{json_encode(__('lnd.reviews'))}}"></reviews-slider>

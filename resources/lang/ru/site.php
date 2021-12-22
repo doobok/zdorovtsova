@@ -7,7 +7,7 @@ return [
   //menu
   'menu-directions' => 'Кому нужен психолог',
   'menu-numbers' => 'Чего я достигла',
-  'menu-services' => 'Формы работы',
+  'menu-services' => 'Услуги',
   'menu-steps' => 'Как я работаю',
   'menu-reviews' => 'Отзывы',
   'menu-aboutme' => 'Обо мне',

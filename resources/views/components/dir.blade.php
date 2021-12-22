@@ -4,9 +4,9 @@
              alt="{{__('lnd.dir' . $n)}}"/>
         <p class="text-lg font-bold mt-4">{{__('lnd.dir' . $n)}}</p>
         <div class="mt-4 ml-8 mr-2 w-full">
-            <ul class="list-disc text-xs tracking-wide text-grey-10">
+            <ul class="list-disc text-sm tracking-wide">
                 @for($i=1; $i<$l1+1; ++$i)
-                    <li class="mb-2">{{__('lnd.dir' . $n . '-'.$i)}}</li>
+                    <li class="mb-4">{{__('lnd.dir' . $n . '-'.$i)}}</li>
                 @endfor
             </ul>
         </div>
@@ -22,10 +22,10 @@
     </div>
     <div class="grid grid-cols-1 justify-items-center place-content-end">
         <div class="ml-4">
-            <p class="mb-3 text-sm"><span class="text-xl">👩‍💼</span> {{__('lnd.i-help')}}</p>
-            <ul class="list-disc text-xs">
+{{--            <p class="mb-3 text-sm"><span class="text-xl">👩‍💼</span> {{__('lnd.i-help')}}</p>--}}
+            <ul class="list-disc text-sm">
                 @for($i=1; $i<$l2+1; ++$i)
-                    <li class="mb-2">{{__('lnd.dirh' . $n . '-'.$i)}}</li>
+                    <li class="mb-3">{{__('lnd.dirh' . $n . '-'.$i)}}</li>
                 @endfor
             </ul>
         </div>

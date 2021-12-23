@@ -78,21 +78,36 @@ return [
     'reviews-mark' => 'маленькие истории из жизни клиентов',
     'reviews' => [
                 [
-                    'txt' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus ad aliquid dolores enim error
-                              eum facilis iste neque, numquam optio pariatur perspiciatis provident quae qui quod recusandae tenetur voluptatibus? Fugit.',
-                    'name' => 'Анжелика',
+                    'txt' => 'Я благодарна за тот путь который я прошла вместе с Натальей. Наши встречи были для меня
+                    местом где я могла получить поддержку, опору и принятие.  На протяжении 6 месяцев я многое о себе
+                    поняла, переосмыслила свои отношения с важными для меня людьми.
+                    Появилось понимание чего я хочу и главное силы это сделать.',
+                    'name' => 'Мария',
                 ],
                 [
-                    'txt' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus ad aliquid dolores enim error
-                                      eum facilis iste neque, numquam optio pariatur perspiciatis provident quae qui quod recusandae tenetur voluptatibus? Fugit.',
-                    'name' => 'Тимофей',
+                    'txt' => 'Наталья очень помогла мне в то время когда я был на грани. Никогда бы не мог подумать, что
+                     психолог действительно может решить вопросы семейного и личного благополучия. Рекомендую Наталию,
+                     собственно как такого специалиста и очень благодарю за то время, которое она уделила моим проблемам.',
+                    'name' => 'Николай',
                 ],
                 [
-                    'txt' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus ad aliquid dolores enim error
-                                      eum facilis iste neque, numquam optio pariatur perspiciatis provident quae qui quod recusandae tenetur voluptatibus? Fugit.',
+                    'txt' => 'В жизни каждого современного человека может наступить такой момент, когда стоит обратиться к психологу.
+                     Я очень рада, что моим психологом в тот период была Наталья. Она проявила себя действительно опытным и профессиональным психологом.
+                     Я благодарна ей за профессиональную и своевременную поддержку.',
                     'name' => 'Оксана',
                 ],
             ],
+//    этапы консультирования
+    'steps-h2' => 'Этапы консультирования',
+    'steps-mark' => 'четыре простых шага, которые помогут Вам',
+    'step1' => 'Заявка',
+    'step1-txt' => 'оставьте заявку на сайте или свяжитесь со мной по телефону',
+    'step2' => 'Запись',
+    'step2-txt' => 'мы согласуем удобную дату, время и формат для встречи',
+    'step3' => 'Консультация',
+    'step3-txt' => 'на первой консультации происходит знакомство, изучение Вашей ситуации и определение направления работы',
+    'step4' => 'Реализация',
+    'step4-txt' => 'в процессе консультаций поймете, как устроена проблема и увидите конструктивные пути ее решения',
 //    закрывающий блок
     'end-h2' => 'Наталия Здоровцова',
     'end-txt' => 'Запланируйте сеанс и начните свои изменения уже сегодня!',

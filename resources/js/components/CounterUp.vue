@@ -19,7 +19,7 @@ export default {
           if (this.val === this.max) {
             clearInterval(interval);
           }
-        }, 5 );
+        }, 3 );
       }
     },
     removeScrollHandler() {

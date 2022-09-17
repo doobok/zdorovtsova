@@ -15,7 +15,7 @@
 
     @include('layouts.partials.footer')
 
-    <lead-form></lead-form>
+    <lead-form lang="{{app()->getLocale()}}"></lead-form>
 
   </div>
   @include('layouts.partials.js')

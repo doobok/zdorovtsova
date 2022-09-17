@@ -17,7 +17,7 @@
 
                             <div class="w-full flex text-center justify-center flex-col">
                                 <div class="text-2xl font-semibold text-white flex flex-row justify-center">
-                                    Оставьте заявку и я с Вами свяжусь!
+                                    {{ $ml.get('leadFormTitle') }}
                                 </div>
 <!--                                <p class="text-base text-white m-3">-->
 <!--                                    Оставьте заявку и я с Вами свяжусь!-->
@@ -32,31 +32,31 @@
 
                                 <div class="w-full md:w-4/5">
                                     <div class="w-full p-2 relative mb-1">
-                                        <span class="text-sm text-white">Ваше имя</span>
+                                        <span class="text-sm text-white">{{ $ml.get('yourName') }}</span>
                                         <input
                                             type="text" name="name"
                                             v-model="name"
                                             class="border-0 placeholder-grey-20 text-grey-10 bg-white rounded text-xl shadow focus:outline-none focus:ring w-full p-4"
-                                            placeholder="Имя"
+                                            :placeholder="$ml.get('name')"
                                             @blur="$v.name.$touch()"
                                         />
                                         <span v-if="$v.name.$error"
-                                              class="text-xs text-white p-1 rounded opacity-90 bg-red absolute -bottom-2 left-3">укажите имя</span>
+                                              class="text-xs text-white p-1 rounded opacity-90 bg-red absolute -bottom-2 left-3">{{ $ml.get('enterName') }}</span>
                                     </div>
                                     <!-- phone -->
                                     <input type="text" name="phone" hidden>
                                     <div class="w-full p-2 relative mb-3">
-                                        <span class="text-sm text-white">Номер телефона</span>
+                                        <span class="text-sm text-white">{{ $ml.get('phone') }}</span>
                                         <input
                                             type="text" name="password" autocomplete="new-password"
                                             v-model="phone"
                                             ref="phone"
                                             class="border-0 placeholder-grey-20 text-grey-10 bg-white rounded text-xl shadow focus:outline-none focus:ring w-full p-4"
-                                            placeholder="Номер телефона"
+                                            :placeholder="$ml.get('phone')"
                                             @blur="$v.phone.$touch()"
                                         />
                                         <span v-if="$v.phone.$error"
-                                              class="text-xs text-white p-1 rounded opacity-90 bg-red absolute -bottom-2 left-3">введите действительный номер телефона</span>
+                                              class="text-xs text-white p-1 rounded opacity-90 bg-red absolute -bottom-2 left-3">{{ $ml.get('enterPhone') }}</span>
                                     </div>
 
                                     <div class="w-full p-2 relative">
@@ -67,16 +67,16 @@
                                             @click="sendForm"
                                         >
                                             <template v-if="$v.$invalid">
-                                                заполните форму
+                                                {{ $ml.get('fillForm') }}
                                             </template>
                                             <template v-else>
-                    <span class="flex justify-center">
-                      <svg v-if="loading" class="animate-spin h-5 w-5 mr-3" viewBox="0 0 24 24" fill="currentColor">
-                        <path
-                            d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm8 12c0 4.418-3.582 8-8 8s-8-3.582-8-8 3.582-8 8-8 8 3.582 8 8zm-19 0c0-6.065 4.935-11 11-11v2c-4.962 0-9 4.038-9 9 0 2.481 1.009 4.731 2.639 6.361l-1.414 1.414.015.014c-2-1.994-3.24-4.749-3.24-7.789z"/>
-                      </svg>
-                      <span>продолжить</span>
-                    </span>
+                                                <span class="flex justify-center">
+                                                  <svg v-if="loading" class="animate-spin h-5 w-5 mr-3" viewBox="0 0 24 24" fill="currentColor">
+                                                    <path
+                                                        d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm8 12c0 4.418-3.582 8-8 8s-8-3.582-8-8 3.582-8 8-8 8 3.582 8 8zm-19 0c0-6.065 4.935-11 11-11v2c-4.962 0-9 4.038-9 9 0 2.481 1.009 4.731 2.639 6.361l-1.414 1.414.015.014c-2-1.994-3.24-4.749-3.24-7.789z"/>
+                                                  </svg>
+                                                  <span>{{ $ml.get('continue') }}</span>
+                                                </span>
                                             </template>
                                         </button>
                                     </div>
@@ -84,7 +84,7 @@
 
                                 <div class="w-full flex text-center justify-center">
                                     <p class="text-sm text-grey-50 m-3">
-                                        * будьте спокойны, я никогда не передам номер телефона третьим лицам
+                                        * {{ $ml.get('formDemotivate') }}
                                     </p>
                                 </div>
                             </div>
@@ -98,12 +98,12 @@
                                         <path
                                             d="M21.856 10.303c.086.554.144 1.118.144 1.697 0 6.075-4.925 11-11 11s-11-4.925-11-11 4.925-11 11-11c2.347 0 4.518.741 6.304 1.993l-1.422 1.457c-1.408-.913-3.082-1.45-4.882-1.45-4.962 0-9 4.038-9 9s4.038 9 9 9c4.894 0 8.879-3.928 8.99-8.795l1.866-1.902zm-.952-8.136l-9.404 9.639-3.843-3.614-3.095 3.098 6.938 6.71 12.5-12.737-3.096-3.096z"/>
                                     </svg>
-                                    <span>Готово</span>
+                                    <span>{{ $ml.get('ready') }}</span>
                                 </div>
 
 
                                 <p class="text-base text-gray-300 m-3">
-                                    Номер телефона успешно отправлен, ☎️ ожидайте звонка!
+                                    {{ $ml.get('sendSuccess') }}
                                 </p>
 
                                 <div class="flex justify-center mt-3">
@@ -112,7 +112,7 @@
                                         type="button"
                                         @click="close"
                                     >
-                                        Вернутся к просмотру сайта
+                                        {{ $ml.get('backToSite') }}
                                     </button>
                                 </div>
 
@@ -133,6 +133,7 @@ import {required, maxLength} from "vuelidate/lib/validators";
 import {mapGetters} from "vuex";
 
 export default {
+    props: ['lang'],
     data() {
         return {
             sended: false,
@@ -195,6 +196,9 @@ export default {
             str = str.substr(2);
             return str;
         },
+    },
+    created: function(){
+        this.$ml.change(this.lang);
     },
     mounted() {
         var im = new Inputmask('+38 ' + '(999) 999-9999');

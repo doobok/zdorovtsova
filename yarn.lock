@@ -6110,6 +6110,11 @@
     "vue-hot-reload-api" "^2.3.0"
     "vue-style-loader" "^4.1.0"
 
+"vue-multilanguage@^4.0.18":
+  "integrity" "sha512-FLz+hS6NFx7H4EGnNjwNarLK6rwuI9d3to/nQVibLTYAEUu3HAF6+vGO4SsiSHGS/1eF1HlrW8kwJOIdlp7ETA=="
+  "resolved" "https://registry.npmjs.org/vue-multilanguage/-/vue-multilanguage-4.0.18.tgz"
+  "version" "4.0.18"
+
 "vue-scrollto@^2.20.0":
   "integrity" "sha512-7i+AGKJTThZnMEkhIPgrZjyAX+fXV7/rGdg+CV283uZZwCxwiMXaBLTmIc5RTA4uwGnT+E6eJle3mXQfM2OD3A=="
   "resolved" "https://registry.npmjs.org/vue-scrollto/-/vue-scrollto-2.20.0.tgz"

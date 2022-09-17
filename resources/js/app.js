@@ -1,5 +1,6 @@
 require('./bootstrap');
 // import 'alpinejs';
+import './ml';
 
 // Vue
 window.Vue = require('vue').default;

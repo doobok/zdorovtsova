@@ -9,16 +9,16 @@
         </div>
         <div class="my-7 font-extrabold leading-none text-lila flex flex-wrap justify-center">
           <div class="text-lx">
-            более
+            {{__('site.more')}}
             <div class="text-5xl mx-3">
               <counter-up :max="10"></counter-up>
             </div>
-            лет
+              {{__('site.years')}}
           </div>
         </div>
         <div class="flex justify-center">
           <p class="max-w-md mb-3 text-base lg:text-lg text-grey-70 sm:mx-auto">
-            психологической практики
+            {{__('lnd.number-1')}}
           </p>
         </div>
       </div>
@@ -36,16 +36,16 @@
         </div>
         <div class="my-7 font-extrabold leading-none text-lila flex flex-wrap justify-center">
           <div class="text-lx">
-            более
+            {{__('site.more')}}
             <div class="text-5xl mx-3">
               <counter-up :max="10000"></counter-up>
             </div>
-            часов
+            {{__('site.hours')}}
           </div>
         </div>
         <div class="flex justify-center">
           <p class="max-w-md mb-3 text-base lg:text-lg text-grey-70 sm:mx-auto">
-              индивидуальных консультаций и психологических групп
+              {{__('lnd.number-2')}}
           </p>
         </div>
       </div>
@@ -58,16 +58,16 @@
         </div>
         <div class="my-7 font-extrabold leading-none text-lila flex flex-wrap justify-center">
           <div class="text-lx">
-            более
+            {{__('site.more')}}
             <div class="text-5xl mx-3">
               <counter-up :max="3500"></counter-up>
             </div>
-            часов
+            {{__('site.hours')}}
           </div>
         </div>
         <div class="flex justify-center">
           <p class="max-w-md mb-3 text-base lg:text-lg text-grey-70 sm:mx-auto">
-            дополнительного повышения профессиональной квалификации
+              {{__('lnd.number-3')}}
           </p>
         </div>
       </div>

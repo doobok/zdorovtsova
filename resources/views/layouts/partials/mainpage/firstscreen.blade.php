@@ -32,7 +32,7 @@
                         </ul>
                     </div>
                     <div class="flex justify-center lg:justify-start pt-10">
-                        <smpl-button txt="Получить консультацию"
+                        <smpl-button txt="{{__('lnd.main-btn')}}"
                                      cls="text-sm px-7 py-3 sm:px-10 sm:py-4 md:text-lg md:px-16 md:py-5"></smpl-button>
                     </div>
                 </div>

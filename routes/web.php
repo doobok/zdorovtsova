@@ -1,6 +1,7 @@
 <?php
 
-use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\LocaleController;
+use App\Http\Controllers\PagesController;
 
 /*
 |--------------------------------------------------------------------------
@@ -12,6 +13,9 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
+Route::group(['prefix' => App\Http\Middleware\LocaleMiddleware::getLocale()], function() {
+    Route::get('/', [PagesController::class, 'index']);
+    Route::get('policy', [PagesController::class, 'policy']);
+});
 
-Route::get('/', 'App\Http\Controllers\PagesController@index');
-Route::get('/policy', 'App\Http\Controllers\PagesController@policy');
+Route::get('locale/{lang}', [LocaleController::class, 'setLocale'])->name('set-locale');

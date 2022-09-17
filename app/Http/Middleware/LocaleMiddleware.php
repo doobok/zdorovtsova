@@ -37,8 +37,6 @@ class LocaleMiddleware
     */
     public function handle($request, Closure $next)
     {
-        logs()->info('is middleware');
-
         $locale = self::getLocale();
 
         if($locale) App::setLocale($locale);

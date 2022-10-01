@@ -26,20 +26,20 @@
                         @endforeach
                     @endif
 
-                    <li class="group px-8">
-                        <a href="tel:+380991796860"
-                           class="font-header font-semibold text-2xl text-white uppercase pt-0.5 cursor-pointer flex flex-nowrap align-middle">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="mr-2 mt-1" width="24" height="24"
-                                 viewBox="0 0 24 24" fill="currentColor">
-                                <path
-                                    d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm4.5 17.311l-1.76-3.397-1.032.505c-1.12.543-3.4-3.91-2.305-4.497l1.042-.513-1.747-3.409-1.053.52c-3.601 1.877 2.117 12.991 5.8 11.308l1.055-.517z"/>
-                            </svg>
-                            099-179-68-60
-                        </a>
+{{--                    <li class="group px-8">--}}
+{{--                        <a href="tel:+380991796860"--}}
+{{--                           class="font-header font-semibold text-2xl text-white uppercase pt-0.5 cursor-pointer flex flex-nowrap align-middle">--}}
+{{--                            <svg xmlns="http://www.w3.org/2000/svg" class="mr-2 mt-1" width="24" height="24"--}}
+{{--                                 viewBox="0 0 24 24" fill="currentColor">--}}
+{{--                                <path--}}
+{{--                                    d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm4.5 17.311l-1.76-3.397-1.032.505c-1.12.543-3.4-3.91-2.305-4.497l1.042-.513-1.747-3.409-1.053.52c-3.601 1.877 2.117 12.991 5.8 11.308l1.055-.517z"/>--}}
+{{--                            </svg>--}}
+{{--                            099-179-68-60--}}
+{{--                        </a>--}}
 
-                    </li>
+{{--                    </li>--}}
 
-                    <li class="group mr-3 opacity-25 hover:opacity-75 transition-opacity">
+                    <li class="group ml-8 mr-3 opacity-25 hover:opacity-75 transition-opacity">
                         @include('layouts.partials.language-toggle')
                     </li>
 
@@ -86,20 +86,20 @@
                     @endforeach
                 @endif
 
-                <li class="group pt-8">
+{{--                <li class="group pt-8">--}}
 
-                    <a href="tel:+380991796860"
-                       class="font-header font-semibold text-base text-white uppercase pt-0.5 cursor-pointer flex flex-nowrap inline-block align-middle">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="mr-2" width="24" height="24" viewBox="0 0 24 24"
-                             fill="currentColor">
-                            <path
-                                d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm4.5 17.311l-1.76-3.397-1.032.505c-1.12.543-3.4-3.91-2.305-4.497l1.042-.513-1.747-3.409-1.053.52c-3.601 1.877 2.117 12.991 5.8 11.308l1.055-.517z"/>
-                        </svg>
-                        <span>
-                            099-179-68-60
-                        </span>
-                    </a>
-                </li>
+{{--                    <a href="tel:+380991796860"--}}
+{{--                       class="font-header font-semibold text-base text-white uppercase pt-0.5 cursor-pointer flex flex-nowrap inline-block align-middle">--}}
+{{--                        <svg xmlns="http://www.w3.org/2000/svg" class="mr-2" width="24" height="24" viewBox="0 0 24 24"--}}
+{{--                             fill="currentColor">--}}
+{{--                            <path--}}
+{{--                                d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm4.5 17.311l-1.76-3.397-1.032.505c-1.12.543-3.4-3.91-2.305-4.497l1.042-.513-1.747-3.409-1.053.52c-3.601 1.877 2.117 12.991 5.8 11.308l1.055-.517z"/>--}}
+{{--                        </svg>--}}
+{{--                        <span>--}}
+{{--                            099-179-68-60--}}
+{{--                        </span>--}}
+{{--                    </a>--}}
+{{--                </li>--}}
             </ul>
         </div>
     </div>

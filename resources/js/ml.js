@@ -19,6 +19,10 @@ export default new MLCreate({
             ready: 'Готово',
             sendSuccess: 'Номер телефона успешно отправлен, ☎️ ожидайте звонка!',
             backToSite: 'Вернутся к просмотру сайта',
+            selectMessager: 'Выберите ваш мессенджер',
+            enterContacts: 'Теперь введите контактные данные для обратной связи',
+            yourChoice: 'Вы выбрали',
+            changeChoice: 'Нажмите, чтобы изменить',
         }),
 
         new MLanguage('uk').create({
@@ -34,6 +38,10 @@ export default new MLCreate({
             ready: 'Готово',
             sendSuccess: 'Номер телефону успішно надіслано, ☎️ очікуйте дзвінка!',
             backToSite: 'Повернутись до перегляду сайту',
+            selectMessager: 'Оберіть Ваш мессенджер',
+            enterContacts: 'Тепер введіть контактні дані для зворотнього зв\'язку',
+            yourChoice: 'Ви обрали',
+            changeChoice: 'Натисніть для того щоб змінити',
         }),
 
     ]

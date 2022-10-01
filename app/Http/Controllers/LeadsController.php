@@ -56,8 +56,9 @@ public function saveToDB($request)
       $phone = '+38' . $request->phone;
       $slug = $request->slug;
       $name = $request->name;
+      $mark = $request->mark;
       //telegram notification
-      Notification::send('', new TelegramNewLead($slug, $phone, $name));
+      Notification::send('', new TelegramNewLead($slug, $phone, $name, $mark));
 
       // // отправляем в retailCRM
       // $client = new \RetailCrm\ApiClient(

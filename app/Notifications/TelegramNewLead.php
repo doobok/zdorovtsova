@@ -13,16 +13,22 @@ class TelegramNewLead extends Notification
 {
     use Queueable;
 
+    private $phone;
+    private $slug;
+    private $name;
+    private $mark;
+
     /**
      * Create a new notification instance.
      *
      * @return void
      */
-     public function __construct($slug, $phone, $name)
+     public function __construct($slug, $phone, $name, $mark)
      {
        $this->phone = $phone;
        $this->slug = $slug;
        $this->name = $name;
+       $this->mark = $mark;
 
      }
 
@@ -49,7 +55,7 @@ class TelegramNewLead extends Notification
 
          return TelegramMessage::create()
              ->to(config('var.telegramchat'))
-             ->content("🔥 *Новая заявка на сайте!* \n от *$this->name* \n метка *$this->slug* \n ```$this->phone```");
+             ->content("🔥 *Новая заявка на сайте!* \n от *$this->name* \n метка *$this->slug* \n мессенджер *$this->mark* \n ```$this->phone```");
      }
 
     /**

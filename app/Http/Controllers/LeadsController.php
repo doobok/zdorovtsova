@@ -53,7 +53,7 @@ public function saveToDB($request)
 
     // notifications
       // формируем сообщение
-      $phone = '+38' . $request->phone;
+      $phone = '+' . $request->phone;
       $slug = $request->slug;
       $name = $request->name;
       $mark = $request->mark;
